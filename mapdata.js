@@ -39,7 +39,7 @@ var simplemaps_countrymap_mapdata={
     zoom_time: 0.5,
     
     //Popup settings
-    popup_color: "#081a1c",
+    popup_color: "#ffffff",
     popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
