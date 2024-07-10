@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html data-bs-theme="dark">
-    <head>
-        <script type="text/javascript" src="/mapdata.js"></script>		
-        <script  type="text/javascript" src="/countrymap.js"></script>
-        <link rel="stylesheet" href="/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <title>PureIndia</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #133352;">
-            <div class="container-fluid">
-              <img class="navbar-brand" src="/logo.png" style="width: 10%;">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/NimitVijayvargee/pureindia">Source Code</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                  </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="row">
-        <div id="map" class="col-sm-6"></div>
-        <div class="col-sm-6" id="info">
-            <h1>Welcome to Uttarakhand!</h1>
-            <img src="photos/ut.png" style="max-width: 700px;"><br>
-            Uttarakhand, formerly known as Uttaranchal, is a state in northern India celebrated for its stunning natural landscapes and rich cultural heritage. The culture of Uttarakhand is deeply intertwined with its scenic Himalayan terrain, fostering a way of life that is both traditional and harmonious with nature. The region's festivals, such as Kumaoni Holi, Nanda Devi Raj Jat, and Ganga Dussehra, are vibrant expressions of local customs, religious fervor, and community spirit, often accompanied by traditional music and dance forms like Langvir Nritya and Barada Nati. The cuisine of Uttarakhand is simple yet flavorful, with dishes like Aloo ke Gutke, Kafuli, and Bal Mithai reflecting the agricultural practices and local ingredients of the region.
 
-            Folk music, which includes instruments like the Dhol and Damau, plays an integral role in the cultural life of Uttarakhand, with songs that narrate tales of valor, love, and devotion. The state is also known for its distinctive handicrafts, such as intricately designed woolen shawls, wood carvings, and ringaal basketry, showcasing the craftsmanship and creativity of the local artisans. The people of Uttarakhand, known for their hospitality and resilience, maintain a deep connection to their land and traditions, which is evident in their daily lives and cultural expressions. Additionally, the state is home to significant religious sites, including the Char Dham pilgrimage circuit, which draws devotees from across the country. Overall, the culture of Uttarakhand is a harmonious blend of natural beauty, spiritual depth, and traditional wisdom.          </div>
-    </body>
+<head>
+  <script type="text/javascript" src="/mapdata.js"></script>
+  <script type="text/javascript" src="/countrymap.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>PureIndia</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #133352;">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="/logo.png" style="width: 10%;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/NimitVijayvargee/pureindia">Source Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div id="map" class="col-sm-6"></div>
+    <div class="col-sm-6" id="info">
+      <h1>Welcome to Uttarakhand!</h1>
+      <img src="photos/ut.png" style="max-width: 700px;"><br>
+      Uttarakhand, formerly known as Uttaranchal, is a state in northern India celebrated for its stunning natural
+      landscapes and rich cultural heritage. The culture of Uttarakhand is deeply intertwined with its scenic Himalayan
+      terrain, fostering a way of life that is both traditional and harmonious with nature. The region's festivals, such
+      as Kumaoni Holi, Nanda Devi Raj Jat, and Ganga Dussehra, are vibrant expressions of local customs, religious
+      fervor, and community spirit, often accompanied by traditional music and dance forms like Langvir Nritya and
+      Barada Nati. The cuisine of Uttarakhand is simple yet flavorful, with dishes like Aloo ke Gutke, Kafuli, and Bal
+      Mithai reflecting the agricultural practices and local ingredients of the region.
+
+      Folk music, which includes instruments like the Dhol and Damau, plays an integral role in the cultural life of
+      Uttarakhand, with songs that narrate tales of valor, love, and devotion. The state is also known for its
+      distinctive handicrafts, such as intricately designed woolen shawls, wood carvings, and ringaal basketry,
+      showcasing the craftsmanship and creativity of the local artisans. The people of Uttarakhand, known for their
+      hospitality and resilience, maintain a deep connection to their land and traditions, which is evident in their
+      daily lives and cultural expressions. Additionally, the state is home to significant religious sites, including
+      the Char Dham pilgrimage circuit, which draws devotees from across the country. Overall, the culture of
+      Uttarakhand is a harmonious blend of natural beauty, spiritual depth, and traditional wisdom.
+    </div>
+  </div>
+</body>
+
 </html>
