@@ -1,11 +1,24 @@
 body{
   overflow-x: hidden;
 }
-
-#div{
+nav{
   padding: 10px;
 }
-
+#info{
+  background-color: #1e2225;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
 ::-webkit-scrollbar {
     width: 5px;
   }
