@@ -161,7 +161,7 @@ var simplemaps_countrymap_mapdata={
       url: "/states/innl.html"
     },
     INOR: {
-      name: "Orissa",
+      name: "Odisha",
       url: "/states/inor.html"
     },
     INPB: {
