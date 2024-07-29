@@ -145,3 +145,7 @@ h1{
   font-weight: 900;
   font-style: italic;
 }
+
+body {
+  transition: ease-in-out 1s;
+}

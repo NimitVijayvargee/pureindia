@@ -62,147 +62,147 @@ var simplemaps_countrymap_mapdata={
   state_specific: {
     INAN: {
       name: "Andaman and Nicobar",
-      url: "/states/inan.html"
+      url: "javascript:change_state('inan');"
     },
     INAP: {
       name: "Andhra Pradesh",
-      url: "/states/inap.html"
+      url: "javascript:change_state('inap');"
     },
     INAR: {
       name: "Arunachal Pradesh",
-      url: "/states/inar.html"
+      url: "javascript:change_state('inar');"
     },
     INAS: {
       name: "Assam",
-      url: "/states/inas.html"
+      url: "javascript:change_state('inas');"
     },
     INBR: {
       name: "Bihar",
-      url: "/states/inbr.html"
+      url: "javascript:change_state('inbr');"
     },
     INCH: {
       name: "Chandigarh",
-      url: "/states/inch.html"
+      url: "javascript:change_state('inch');"
     },
     INCT: {
       name: "Chhattisgarh",
-      url: "/states/inct.html"
+      url: "javascript:change_state('inct');"
     },
     INDH: {
       name: "Dādra and Nagar Haveli and Damān and Diu",
-      url: "/states/indh.html"
+      url: "javascript:change_state('indh');"
     },
     INDL: {
       name: "Delhi",
-      url: "/states/indl.html"
+      url: "javascript:change_state('indl');"
     },
     INGA: {
       name: "Goa",
-      url: "/states/inga.html"
+      url: "javascript:change_state('inga');"
     },
     INGJ: {
       name: "Gujarat",
-      url: "/states/ingj.html"
+      url: "javascript:change_state('ingj');"
     },
     INHP: {
       name: "Himachal Pradesh",
-      url: "/states/inhp.html"
+      url: "javascript:change_state('inhp');"
     },
     INHR: {
       name: "Haryana",
-      url: "/states/inhr.html"
+      url: "javascript:change_state('inhr');"
     },
     INJH: {
       name: "Jharkhand",
-      url: "/states/injh.html"
+      url: "javascript:change_state('injh');"
     },
     INJK: {
       name: "Jammu and Kashmir",
-      url: "/states/injk.html"
+      url: "javascript:change_state('injk');"
     },
     INKA: {
       name: "Karnataka",
-      url: "/states/inka.html"
+      url: "javascript:change_state('inka');"
     },
     INKL: {
       name: "Kerala",
-      url: "/states/inkl.html"
+      url: "javascript:change_state('inkl');"
     },
     INLA: {
       name: "Ladakh",
-      url: "/states/inla.html"
+      url: "javascript:change_state('inla');"
     },
     INLD: {
       name: "Lakshadweep",
-      url: "/states/inld.html"
+      url: "javascript:change_state('inld');"
     },
     INMH: {
       name: "Maharashtra",
-      url: "/states/inmh.html"
+      url: "javascript:change_state('inmh');"
     },
     INML: {
       name: "Meghalaya",
-      url: "/states/inml.html"
+      url: "javascript:change_state('inml');"
     },
     INMN: {
       name: "Manipur",
-      url: "/states/inmn.html"
+      url: "javascript:change_state('inmn');"
     },
     INMP: {
       name: "Madhya Pradesh",
-      url: "/states/inmp.html"
+      url: "javascript:change_state('inmp');"
     },
     INMZ: {
       name: "Mizoram",
-      url: "/states/inmz.html"
+      url: "javascript:change_state('inmz');"
     },
     INNL: {
       name: "Nagaland",
-      url: "/states/innl.html"
+      url: "javascript:change_state('innl');"
     },
     INOR: {
       name: "Odisha",
-      url: "/states/inor.html"
+      url: "javascript:change_state('inor');"
     },
     INPB: {
       name: "Punjab",
-      url: "/states/inpb.html"
+      url: "javascript:change_state('inpb');"
     },
     INPY: {
       name: "Puducherry",
-      url: "/states/inpy.html"
+      url: "javascript:change_state('inpy');"
     },
     INRJ: {
       name: "Rajasthan",
-      url: "/states/inrj.html"
+      url: "javascript:change_state('inrj');"
     },
     INSK: {
       name: "Sikkim",
-      url: "/states/insk.html"
+      url: "javascript:change_state('insk');"
     },
     INTG: {
       name: "Telangana",
-      url: "/states/intg.html"
+      url: "javascript:change_state('intg');"
     },
     INTN: {
       name: "Tamil Nadu",
-      url: "/states/intn.html"
+      url: "javascript:change_state('intn');"
     },
     INTR: {
       name: "Tripura",
-      url: "/states/intr.html"
+      url: "javascript:change_state('intr');"
     },
     INUP: {
       name: "Uttar Pradesh",
-      url: "/states/inup.html"
+      url: "javascript:change_state('inup');"
     },
     INUT: {
       name: "Uttarakhand",
-      url: "/states/inut.html"
+      url: "javascript:change_state('inut');"
     },
     INWB: {
       name: "West Bengal",
-      url: "/states/inwb.html"
+      url: "javascript:change_state('inwb');"
     }
   },
   locations: {},
@@ -354,40 +354,5 @@ var simplemaps_countrymap_mapdata={
   },
   legend: {
     entries: []
-  },
-  regions: {
-    "0": {
-      states: [
-        "INAR",
-        "INTR",
-        "INMZ",
-        "INMN",
-        "INNL",
-        "INAS",
-        "INML"
-      ],
-      name: "East India"
-    },
-    "1": {
-      states: [
-        "INDH",
-        "INGJ"
-      ],
-      name: "Gujarat"
-    },
-    "2": {
-      states: [
-        "INWB",
-        "INSK"
-      ],
-      name: "West Bengal"
-    },
-    "3": {
-      states: [
-        "INJK",
-        "INLA"
-      ],
-      name: "Jammu & Kashmir"
-    }
   }
 };
