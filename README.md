@@ -1,4 +1,7 @@
-# PureIndia💧
-bad name, good site <br>
-An interactive map highlighting cultures of the states (WIP).
-Click on any state to be reditected to all the information on that state. Certain states are grouped into blocks (East India, Jammu and Kashmir).
+# PureIndia
+An interactive map site to highlight India's diverse cultures throughout the states!
+
+## How to run
+No need to run, just visit the website at [this site](https://pureindia.vercel.app/)!
+
+Optionally, clone the website (`git clone https://https://github.com/NimitVijayvargee/pureindia.git`) and then run the index.html file (it should open in your browser).
